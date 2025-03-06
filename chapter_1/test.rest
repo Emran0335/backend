@@ -1,0 +1,33 @@
+### Testing client side  / Website
+### http://localhost:8383/
+GET http://localhost:8383/
+
+
+### Testing Client Side with Routing
+### http://localhost:8383/dashboard/
+GET http://localhost:8383/dashboard/
+
+
+
+### Testing Server side / Server side endpoint
+### http://localhost:8383/api/data
+GET http://localhost:8383/api/data
+
+
+### Testing Server side / Server side endpoint
+### http://localhost:8383/api/data
+POST http://localhost:8383/api/data
+Content-Type: application/json
+
+{
+    "firstName": "Farjana",
+    "lastName": "Maya",
+    "age": 36,
+    "isMarried": true
+}
+
+
+### Testing Server side / Server side endpoint
+### http://localhost:8383/api/data
+DELETE  http://localhost:8383/api/data
+Content-Type: application/json
